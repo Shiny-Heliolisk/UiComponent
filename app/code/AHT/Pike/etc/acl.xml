@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="AHT_Pike::pike" title="Custom pike" sortOrder="99">
+                    <resource id="AHT_Pike::inside" title="Custom inside" sortOrder="99"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

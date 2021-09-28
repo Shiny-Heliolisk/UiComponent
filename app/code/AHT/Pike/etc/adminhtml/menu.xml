@@ -8,6 +8,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="AHT_Pike::pike" title="Pike" module="AHT_Pike" sortOrder="30" resource="AHT_Pike::pike"/>
-        <add id="AHT_Pike::inside" title="Pike inside" module="AHT_Pike" sortOrder="30" parent="AHT_Pike::pike" action="pike/inside" resource="AHT_Pike::pike"/>
+        <add id="AHT_Pike::inside" title="Pike inside" module="AHT_Pike" sortOrder="30" parent="AHT_Pike::pike" action="pike/index/index" resource="AHT_Pike::pike"/>
     </menu>
 </config>

@@ -31,7 +31,7 @@
             </storageConfig>
             <updateUrl path="mui/index/render"/>
         </settings>
-        <aclResource>Magento_Cms::block</aclResource>
+        <aclResource>AHT_Pike::inside</aclResource>
         <dataProvider class="AHT\Pike\Ui\Component\DataProvider" name="pike_page_listing_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>

@@ -21,4 +21,5 @@ interface PikeRepositoryInterface
      */
     public function getById($blockId);
 
+    
 }

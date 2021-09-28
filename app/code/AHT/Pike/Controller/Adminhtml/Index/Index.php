@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace AHT\Pike\Controller\Adminhtml\Pike;
+namespace AHT\Pike\Controller\Adminhtml\Index;
 
 use Magento\Framework\App\Action\HttpGetActionInterface;
 
@@ -44,7 +44,7 @@ class Index extends \Magento\Cms\Controller\Adminhtml\Block implements HttpGetAc
 
         // $dataPersistor = $this->_objectManager->get(\Magento\Framework\App\Request\DataPersistorInterface::class);
         // $dataPersistor->clear('cms_block');
-
+        // echo 'hello';
         return $resultPage;
     }
 }

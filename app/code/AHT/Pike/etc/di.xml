@@ -8,7 +8,6 @@
         </arguments>
     </type>
     <virtualType name="AHT\Pike\Model\ResourceModel\Pike\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
-        
         <arguments>
             <argument name="mainTable" xsi:type="string">aht_pike</argument>
             <!-- <argument name="eventPrefix" xsi:type="string">cms_page_grid_collection</argument>

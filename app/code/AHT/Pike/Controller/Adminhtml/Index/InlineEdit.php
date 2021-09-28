@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace AHT\Pike\Controller\Adminhtml\Pike;
+namespace AHT\Pike\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action\Context;
 use AHT\Pike\Api\PikeRepositoryInterface as PikeRepository;
